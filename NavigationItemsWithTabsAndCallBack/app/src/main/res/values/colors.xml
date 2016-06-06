@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#eb0927</color>
+    <color name="colorPrimaryDark">#a1061b</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="app_background">#eb0927</color>
+    <color name="app_call_title_color">#df2d43</color>
+    <color name="app_call_sub_title_color">#000000</color>
+    <color name="app_segment_background_color">#2e2e2e</color>
+    <color name="app_selected_segment_color">#a1061b</color>
+
+    <color name="app_tab_unselected_color">#2e2e2e</color>
+    <color name="app_tab_selected_color">#a1061b</color>
+</resources>

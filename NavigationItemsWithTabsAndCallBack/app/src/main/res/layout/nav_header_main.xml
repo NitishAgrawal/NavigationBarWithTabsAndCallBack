@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    >
+    <ImageView
+        android:id="@+id/headerImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_header_height"
+        android:background="#212121"
+        android:src="@mipmap/appicon"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+         android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+         <com.app.navigationitemswithtabsandcallback.custom.HeaderRow
+             android:id="@+id/itme1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             custom:src="@mipmap/appicon"
+             custom:text="@string/Item1"
+             />
+
+         <com.app.navigationitemswithtabsandcallback.custom.HeaderRow
+             android:id="@+id/item2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             custom:src="@mipmap/appicon"
+             custom:text="@string/Item2"
+             />
+
+     </LinearLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">32dp</dimen>
+    <dimen name="activity_vertical_margin">32dp</dimen>
+    <dimen name="column_width_size">140dp</dimen>
+    <dimen name="column_padding">10dp</dimen>
+    <dimen name="margin_buttom">15dp</dimen>
+
+    <dimen name="menu_item_hi_wi">30dp</dimen>
+    <dimen name="et_text_size">22sp</dimen>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NavigationItemsWithTabsAndCallBack</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--menu Strings-->
+    <string name="Item1">ITEM1</string>
+    <string name="Item2">ITEM2</string>
+
+    <!--Tabes-->
+    <string name="sub_item1">SUB ITEM1</string>
+    <string name="sub_item2">SUB ITEM2</string>
+    <string name="sub_item3">SUB ITEM3</string>
+    <string name="sub_item4">SUB ITEM4</string>
+    <string name="sub_item11">SUB ITEM11</string>
+    <string name="sub_item12">SUB ITEM12</string>
+</resources>
