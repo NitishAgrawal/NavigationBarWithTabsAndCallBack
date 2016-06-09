@@ -11,10 +11,21 @@
     <string name="Item2">ITEM2</string>
 
     <!--Tabes-->
+    <string name="click1">Click For Switch Fragment11 For this tab</string>
+    <string name="click2">Click For Switch Fragment21 For this tab </string>
+    <string name="click3">Click For Switch Fragment31 For this tab </string>
+    <string name="click4">Click For Switch Fragment41 For this tab </string>
+    <string name="press_back_button1">Press Back Button To go back fragment 1</string>
+    <string name="press_back_button2">Press Back Button To go back fragment 2</string>
+    <string name="press_back_button3">Press Back Button To go back fragment 3</string>
+    <string name="press_back_button4">Press Back Button To go back fragment 4</string>
     <string name="sub_item1">SUB ITEM1</string>
     <string name="sub_item2">SUB ITEM2</string>
     <string name="sub_item3">SUB ITEM3</string>
     <string name="sub_item4">SUB ITEM4</string>
     <string name="sub_item11">SUB ITEM11</string>
+    <string name="sub_item21">SUB ITEM21</string>
+    <string name="sub_item31">SUB ITEM31</string>
+    <string name="sub_item41">SUB ITEM41</string>
     <string name="sub_item12">SUB ITEM12</string>
 </resources>

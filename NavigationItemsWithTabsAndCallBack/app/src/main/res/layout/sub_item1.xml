@@ -13,7 +13,7 @@
     <TextView
         android:id="@+id/subItme1"
         android:layout_centerInParent="true"
-        android:text="@string/sub_item1"
+        android:text="@string/click1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>

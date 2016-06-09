@@ -2,6 +2,7 @@ package com.app.navigationitemswithtabsandcallback.fragments.tabsfrag;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import com.app.navigationitemswithtabsandcallback.R;
 import com.app.navigationitemswithtabsandcallback.controller.ChangeFragment;
@@ -31,7 +32,13 @@ public class SubItem3 extends SubBaseFragment {
     }
     @Override
     public void initOnCreateView(View v) {
-
+        TextView tv = (TextView) v.findViewById(R.id.subItme3);
+        tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                changeFragment.pushFragment(Const.ITEM2,Const.TAB_A,SubItem31.create(tFragment));
+            }
+        });
     }
 
 

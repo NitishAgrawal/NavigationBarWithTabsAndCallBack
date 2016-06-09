@@ -11,9 +11,9 @@
     >
 
     <TextView
-        android:id="@+id/subItme4"
+        android:id="@+id/subItme21"
         android:layout_centerInParent="true"
-        android:text="@string/click4"
+        android:text="@string/press_back_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>

@@ -2,7 +2,6 @@ package com.app.navigationitemswithtabsandcallback.fragments.tabsfrag;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 import com.app.navigationitemswithtabsandcallback.R;
 import com.app.navigationitemswithtabsandcallback.controller.ChangeFragment;
@@ -10,15 +9,15 @@ import com.app.navigationitemswithtabsandcallback.fragments.menu.TabBaseFragment
 import com.app.navigationitemswithtabsandcallback.util.Const;
 
 
-public class SubItem11 extends SubBaseFragment {
+public class SubItem31 extends SubBaseFragment {
 
-    public SubItem11() {}
+    public SubItem31() {}
 
-    public static SubItem11 create(TabBaseFragment tBase)
+    public static SubItem31 create(TabBaseFragment tBase)
     {
         final Bundle args = new Bundle();
-        args.putInt(Const.BaseFragmentData.EXTRA_DATA_LAYOUT, R.layout.sub_item11);
-        final SubItem11 f = new SubItem11();
+        args.putInt(Const.BaseFragmentData.EXTRA_DATA_LAYOUT, R.layout.sub_item31);
+        final SubItem31 f = new SubItem31();
         f.setArguments(args);
         f.changeFragment = (ChangeFragment) tBase;
         f.tFragment = tBase;
@@ -28,7 +27,7 @@ public class SubItem11 extends SubBaseFragment {
     @Override
     public void onResume() {
         super.onResume();
-        mCallback.setCurrentFrag(SubItem11.this);
+        mCallback.setCurrentFrag(SubItem31.this);
     }
 
     @Override
